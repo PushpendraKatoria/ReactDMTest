@@ -1,0 +1,64 @@
+.app-class {
+    background:black;
+    padding:20px;
+}
+
+.switch-tile-table {
+    width: 100%;
+    color: white;
+}
+
+.table-heading {
+    padding-left: 15px;
+}
+
+.section-divider {
+    height: 30px;
+}
+
+td {
+    width: 700px;
+}
+
+
+.display-flex {
+    display: flex;
+}
+
+.align-left {
+    margin-right: auto;
+}
+
+.align-right {
+    margin-left: auto;
+}
+
+.subtiles {
+    width: 90%;
+    /* margin: auto; */
+    -moz-transition: all .5s linear;
+    -webkit-transition: all .5s linear;
+    transition: all 2s linear;
+}
+
+.table-body {
+    vertical-align: top;
+}
+
+.rotate {
+    -moz-transition: all .5s linear;
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear;
+}
+.down {
+    -moz-transform:rotate(180deg);
+    -webkit-transform:rotate(180deg);
+    transform:rotate(180deg);
+}
+
+.option-menu {
+    width: 60px;
+    background: black;
+    color: white;
+    border: none;
+}

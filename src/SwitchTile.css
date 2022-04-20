@@ -1,0 +1,37 @@
+.switch-tile {
+    margin: 10px; 
+    /* height: 100px;
+    width: 300px; */
+    background: rgb(27, 27, 27);
+    border-radius: 5px;
+}
+
+.switch-tile-box {
+    display: flex;
+    height: 70px;;
+}
+  
+.switch-tile-text {
+    /* left: 5px;
+    float: left; */
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    width: 90%;
+    padding-left: 55px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    color: white;
+    font-size: 14px;
+}
+  
+.switch-tile-toggle {
+    text-align: right;
+    /* right: 5px;
+    float: right; */
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-right: 20px;
+}  

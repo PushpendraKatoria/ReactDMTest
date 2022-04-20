@@ -1,0 +1,28 @@
+{
+    "generalSection": {
+      "title":"GENERAL",
+      "tiles": [
+        ["CASE MANAGEMENT", "MAP TIMELINE","VIEWS & BRIEFINGS"],
+        ["NOTIFICATIONS", "MSS COMMUNICATIONS","TRAFFIC CAMERAS"]
+      ]
+    },
+    "settingsAndAlertsSection": {
+      "titles":["SETTINGS", "ALERTS"],
+      "settings": {
+        "title":"SETTINGS",
+        "tiles":["AUDIT LOG",
+            { "tileTitle":"USER",
+                "tileSettings":["USER ADD", "USER DELETE ", "USER EDIT", "MAX USERS"] 
+            }
+        ]
+      },
+      "alerts": {
+        "title":"ALERTS",
+        "tiles":["ALERTS MANAGER",
+          { "tileTitle":"ALERT RULES",
+          "tileOptions":[10, 11,12,13,14,15,16,17,18,19,20] 
+          }
+        ]
+      }
+    }
+  }
